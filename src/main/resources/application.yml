@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate.ddl-auto : update
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    user: sa
+
+sports:
+  sportPositions:
+    NFL: QB, WR, RB, TE, K, P, KR, PR
+    MLB: SP, RP, C, 1B, 2B, 3B, SS, LF, RF, CF, DH
+   
